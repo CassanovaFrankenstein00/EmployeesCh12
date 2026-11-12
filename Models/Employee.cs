@@ -28,7 +28,7 @@ namespace EmployeesCh12.Models
         public int? BenefitsID { get; set; }
 
         //Navigation Properties
-        public int? Departments { get; set; } = null!;
+        public Department? Department { get; set; } = null!;
         public Benefits? Benefits { get; set; } = null!;
     }
 }
